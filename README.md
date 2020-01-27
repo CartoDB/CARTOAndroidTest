@@ -10,6 +10,7 @@ Also, you need to handle your GPS location. The traffic cameras are in Sydney so
 
 Hereafter, we will refer to the traffic cameras as Points of Interest (POIs).
 
+Before starting the test, please visit our [open positions](https://carto.com/careers/#open-positions) and fill in the form. If there are no open positions but you still would like to apply, please send an email to [mdominguez@carto.com](mailto:mdominguez@carto.com), she'll get back to you asap.
 
 We'd like you to send us your app in the next 15 days. If you have any question about the test, please don't hesitate to [contact us (jguerrero@carto.com)](mailto:jguerrero@carto.com).
 
