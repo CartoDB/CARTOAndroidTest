@@ -14,7 +14,6 @@ Before starting the test, please visit our [open positions](https://carto.com/ca
 
 We'd like you to send us your app in the next 15 days. If you have any question about the test, please don't hesitate to [contact us (jguerrero@carto.com)](mailto:jguerrero@carto.com).
 
-
 ## Mockups
 
 ### Home & POI search
@@ -62,6 +61,7 @@ This is how the app should behave when you choose a traffic camera (by clicking 
 - The dataset includes images of the traffic cameras.
 - The app should work on all screen sizes, but you don't need to add more than one layout for every screen.
 - Use only portrait mode.
+- If for whatever reason you are not able to complete the test, don't worry, we'll review it anyway.
 
 ## We will pay special attention to...
 - Clean Code and scalable architecture. 
