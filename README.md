@@ -78,6 +78,7 @@ The following features are not mandatory, but will definitely give you bonus poi
 - You include unit and functional tests.
 - Animations. For example, you could use *BottomSheetDialogFragment* to show information on the map.
 - The app works in landscape mode but without changing the design (we know it's a lot of work).
+- <b>IMPORTANT</b>: You can substitute any of the points mentioned in the bonus section with your personal code repositories. For example, if you already have a repository where you demonstrate how to work with an offline app, simply include the URL and let us know where to find the relevant bits.
 
 
 ## Ok, you've built the app, what should you do now?
