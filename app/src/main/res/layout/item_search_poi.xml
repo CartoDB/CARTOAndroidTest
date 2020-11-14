@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_search_item"
+    android:clickable="true"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/poi_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        map:layout_constraintEnd_toStartOf="@+id/direction"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent"
+        tools:text="Sydney Harbour Bridge" />
+
+    <TextView
+        android:id="@+id/poi_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="@color/grey"
+        android:textSize="13sp"
+        map:layout_constraintEnd_toStartOf="@+id/direction"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toBottomOf="@+id/poi_title"
+        tools:text="Sydney Harbour Bridge deck looking south towards the Sydney CBD." />
+
+    <ImageView
+        android:id="@+id/direction"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        tools:background="@drawable/direction_n"
+        android:layout_marginEnd="16dp"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintTop_toTopOf="parent"
+        tools:text="W" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/light_grey"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toBottomOf="@+id/poi_description" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

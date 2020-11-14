@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CARTOAndroidTest</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="directions">DIRECTIONS</string>
+    <string name="start">START</string>
+    <string name="finish">FINISH</string>
+    <string name="choose_starting">Choose starting traffic camera</string>
+    <string name="search_hint">Search traffic cameras</string>
+    <string name="your_location">Your location</string>
+    <string name="help">GPS enabled + Location permissions granted ==> Location is enabled (fake position in Australia, routes from there to poi). Otherwise ==> Location is disabled (routes from poi to poi).</string>
+    <string name="distance">(%1$s%2$s)</string>
+    <string name="time_distance">%1$s %2$s</string>
+    <string name="navigating">YOU ARE NAVIGATING</string>
+</resources>
